@@ -18,8 +18,9 @@ npx serve public
 `<div class="shot-empty">…</div>` нужной карточки на
 `<img src="/assets/screens/clickgui.png" alt="ClickGUI" loading="lazy">` (лучше 16:9, ~1600×900, PNG/WebP).
 
-## Деплой на Cloudflare Pages
+## Деплой на Cloudflare
+Сайт: https://elysium-visuals.elysium-site.workers.dev
 ```powershell
 npx wrangler login            # один раз
-npx wrangler pages deploy public --project-name elysium-visuals --branch main
+npx wrangler deploy            # настройки в wrangler.jsonc
 ```
